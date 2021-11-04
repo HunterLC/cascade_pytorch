@@ -69,7 +69,7 @@ def eval(data_iter, model, args):
     return accuracy
 
 
-print("loading data...")
+print("loading data...QAQ")
 x = pickle.load(open("./mainbalancedpickle.p", "rb"))
 revs, W, W2, word_idx_map, vocab, max_l = x[0], x[1], x[2], x[3], x[4], x[5]
 print("data loaded!")  # Load data

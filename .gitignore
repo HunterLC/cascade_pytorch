@@ -127,3 +127,34 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/.gitignore
+.idea/cascade_sarc.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/other.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.vscode/settings.json
+data/comments.json
+data/crawl-300d-2M.vec
+data/my_personality_train.csv
+data/my_test_balanced.csv
+data/my_train_balanced.csv
+data/personality_essay.csv
+data/test-balanced.csv
+data/train-balanced.csv
+discourse/output/discourse_embeddings.csv
+discourse/output/discourse_model
+discourse/output/train_balanced_topics.csv
+user/stylometric/output/train_balanced_user.csv
+user/stylometric/output/user_stylometric
+user/stylometric/output/user_stylometric.csv
+user/stylometric/output/user_stylometric.docvecs.vectors_docs.npy
+user/stylometric/output/user_stylometric.trainables.syn1neg.npy
+user/stylometric/output/user_stylometric.wv.vectors.npy
+user/personality/personalitypickle.p
+user/user_view_vectors.csv
+user/user_gcca_embeddings.npz
+model/mainbalancedpickle.p
+user/personality/output/user_personality.csv
+user/personality/output/best_steps_23.pt
+model/output/best_steps_28.pt
