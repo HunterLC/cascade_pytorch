@@ -23,7 +23,7 @@ sarc_test_file = r'D:\code\pycharm\cascade_sarc\data\test-balanced.csv'
 df_sarc_train = pd.read_csv(sarc_train_file, header=None, sep='\t', usecols=[0, 1, 3], names=['label', 'text', 'forum'])
 df_sarc_test = pd.read_csv(sarc_test_file, header=None, sep='\t', usecols=[0, 1, 3], names=['label', 'text', 'forum'])
 
-# 论坛名称
+# 论坛名称,具体参照数据集中的名称
 forum_list = ['movies', 'technology']
 
 # 按照论坛名称进行分组
