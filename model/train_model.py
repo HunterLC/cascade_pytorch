@@ -264,6 +264,7 @@ def train():
             # A batch consists of data and corresponding labels.
             data, user, topic, labels = batch
             # print(data)
+            # print(labels)
             # exit()
 
             # Forward the data. (Make sure data and model are on the same device.)

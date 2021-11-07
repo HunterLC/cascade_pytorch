@@ -76,6 +76,7 @@ class TextCNN(nn.Module):
         # 拼接用户嵌入和主题嵌入
         x = torch.cat((self.user_embedding(user), x, self.topic_embedding(topic)), 1)
 
+
         x = self.dropout(x)
         output = self.fc_layers2(x)
         return output
